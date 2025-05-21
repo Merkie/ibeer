@@ -74,7 +74,7 @@ function App() {
           <div
             style={{ "text-align": "center", color: "white", padding: "20px" }}
           >
-            <h1>iBeer Time! 🍻</h1>
+            <h1>iBeer clone by 1sevarcher 🍻</h1>
             <p style={{ margin: "20px 0" }}>
               Tap the button below to enable motion sensors and pour your
               virtual beer.
