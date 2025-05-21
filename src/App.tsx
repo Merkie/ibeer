@@ -1,5 +1,4 @@
 import { createSignal, onMount } from "solid-js";
-import "./App.css";
 
 function App() {
   const [beta, setBeta] = createSignal(0);
