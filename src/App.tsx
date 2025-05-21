@@ -10,9 +10,11 @@ function App() {
     async function enableMotion() {
       if (
         typeof DeviceOrientationEvent !== "undefined" &&
+        // @ts-ignore
         typeof DeviceOrientationEvent.requestPermission === "function"
       ) {
         try {
+          // @ts-ignore
           const response = await DeviceOrientationEvent.requestPermission();
           if (response === "granted") {
             setGranted(true);
